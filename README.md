@@ -41,6 +41,10 @@
 
 - [hashmap](docs/hashmap.md): 整数キー向けの高速ハッシュマップ。最大使用率50%、64bit整数演算による検索に統一。`[]`、`find`、`insert`、`erase`、範囲for、`count` に対応。
 
+- [wavelet_matrix](docs/wavelet_matrix.md): 整数列の昇順・降順k番目と値域内の個数。重みを後付けして値域・先頭k個の集約、境界値・個数・集約値の探索に対応。複数区間の同時探索、値へのxorも利用可能。座圧版はpairや文字列などの比較可能な値にも対応。
+
+- [indexed_wavelet_matrix](docs/indexed_wavelet_matrix.md): 一般座標をindexに使うWavelet Matrix。重複座標を個別に保持し、座標区間・複数区間で既存の順位選択・重み集約・探索を利用できる。
+
 ## 開発環境
 
 Linux / WSL Ubuntu、g++、GNU Make、Python 3.10以上を使用する。
