@@ -45,6 +45,8 @@
 
 - [indexed_wavelet_matrix](docs/indexed_wavelet_matrix.md): 一般座標をindexに使うWavelet Matrix。重複座標を個別に保持し、座標区間・複数区間で既存の順位選択・重み集約・探索を利用できる。
 
+- [knapsack](docs/knapsack.md) は、0/1 ナップサックの全列挙、個数無制限の Chan–He 型前計算、個数上限付きの単調キュー DP・Axiotis–Tzamos 型の重量別 DP・単発差分 DP・圧縮表。容量以下や重量ちょうどの価値最大化と、目標重量以上の価値最小化を扱う。
+
 ## 開発環境
 
 Linux / WSL Ubuntu、g++、GNU Make、Python 3.10以上を使用する。
